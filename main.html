@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anime List</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">Anime Hub</div>
+
+    <input id="search" class="search" type="text" placeholder="Search anime..." />
+
+    <div class="sortWrap">
+      <label class="label">Sort:</label>
+      <select id="sort" class="sort">
+        <option value="rating_desc">Rating (high → low)</option>
+        <option value="rating_asc">Rating (low → high)</option>
+        <option value="az">A → Z</option>
+        <option value="za">Z → A</option>
+      </select>
+    </div>
+  </header>
+
+  <section class="filters">
+    <button class="chip active" data-cat="All">All</button>
+    <button class="chip" data-cat="Action">Action</button>
+    <button class="chip" data-cat="Drama">Drama</button>
+    <button class="chip" data-cat="Melodrama">Melodrama</button>
+    <button class="chip" data-cat="Fantasy">Fantasy</button>
+    <button class="chip" data-cat="Sci-Fi">Sci-Fi</button>
+    <button class="chip" data-cat="Thriller">Thriller</button>
+    <button class="chip" data-cat="Sports">Sports</button>
+    <button class="chip" data-cat="Comedy">Comedy</button>
+  </section>
+
+  <main class="grid" id="grid"></main>
+
+  <script src="main.js"></script>
+</body>
+</html>
