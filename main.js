@@ -3,25 +3,24 @@ const IMG = (name) =>
 
 const animeList = [
   { title: "Attack on Titan", category: "Action", rating: 9.1, img: "images/aot.jpg" },
-  { title: "Death Note", category: "Thriller", rating: 9.0, img: IMG("Death Note") },
-  { title: "Fullmetal Alchemist: Brotherhood", category: "Action", rating: 9.1, img: IMG("FMAB") },
-  { title: "Hunter x Hunter", category: "Action", rating: 9.0, img: IMG("HxH") },
-  { title: "Steins;Gate", category: "Sci-Fi", rating: 9.1, img: IMG("Steins;Gate") },
-  { title: "Code Geass", category: "Thriller", rating: 8.9, img: IMG("Code Geass") },
-  { title: "Demon Slayer", category: "Action", rating: 8.7, img: IMG("Demon Slayer") },
-  { title: "Jujutsu Kaisen", category: "Action", rating: 8.6, img: IMG("JJK") },
-  { title: "Vinland Saga", category: "Drama", rating: 8.8, img: IMG("Vinland Saga") },
-  { title: "Monster", category: "Thriller", rating: 9.0, img: IMG("Monster") },
+  { title: "Death Note", category: "Thriller", rating: 9.0, img: "images/death-note.jpg" },
+  { title: "Fullmetal Alchemist: Brotherhood", category: "Action", rating: 9.1, img: "images/fmab.jpg" },
+  { title: "Hunter x Hunter", category: "Action", rating: 9.0, img: "images/hxh.jpg" },
+  { title: "Steins;Gate", category: "Sci-Fi", rating: 9.1, img: "images/steins-gate.jpg" },
+  { title: "Code Geass", category: "Thriller", rating: 8.9, img: "images/code-geass.jpg" },
+  { title: "Demon Slayer", category: "Action", rating: 8.7, img: "images/demon-slayer.jpg" },
+  { title: "Jujutsu Kaisen", category: "Action", rating: 8.6, img: "images/jujutsu-kaisen.jpg" },
+  { title: "Vinland Saga", category: "Drama", rating: 8.8, img: "images/vinland-saga.jpg" },
+  { title: "Monster", category: "Thriller", rating: 9.0, img: "images/monster.jpg" },
+  { title: "Naruto", category: "Action", rating: 8.4, img: "images/naruto.jpg" },
+  { title: "Naruto Shippuden", category: "Action", rating: 8.7, img: "images/naruto-shippuden.jpg" },
+  { title: "One Piece", category: "Action", rating: 9.0, img: "images/one-piece.jpg" },
+  { title: "Bleach", category: "Action", rating: 8.2, img: "images/bleach.jpg" },
+  { title: "Dragon Ball Z", category: "Action", rating: 8.8, img: "images/dbz.jpg" },
 
-  { title: "Naruto", category: "Action", rating: 8.4, img: IMG("Naruto") },
-  { title: "Naruto Shippuden", category: "Action", rating: 8.7, img: IMG("Shippuden") },
-  { title: "One Piece", category: "Action", rating: 9.0, img: IMG("One Piece") },
-  { title: "Bleach", category: "Action", rating: 8.2, img: IMG("Bleach") },
-  { title: "Dragon Ball Z", category: "Action", rating: 8.8, img: IMG("DBZ") },
-
-  { title: "One Punch Man", category: "Comedy", rating: 8.7, img: IMG("OPM") },
-  { title: "Mob Psycho 100", category: "Comedy", rating: 8.8, img: IMG("Mob Psycho") },
-  { title: "Gintama", category: "Comedy", rating: 9.0, img: IMG("Gintama") },
+  { title: "One Punch Man", category: "Comedy", rating: 8.7, img: "images/opm.jpg"},
+  { title: "Mob Psycho 100", category: "Comedy", rating: 8.8, img: "images/mob-psycho.jpg" },
+  { title: "Gintama", category: "Comedy", rating: 9.0, img: "images/gintama.jpg" },
   { title: "Spy x Family", category: "Comedy", rating: 8.5, img: IMG("Spy x Family") },
 
   { title: "Tokyo Ghoul", category: "Thriller", rating: 8.0, img: IMG("Tokyo Ghoul") },
@@ -34,11 +33,11 @@ const animeList = [
   { title: "No Game No Life", category: "Fantasy", rating: 8.1, img: IMG("NGNL") },
   { title: "Overlord", category: "Fantasy", rating: 8.0, img: IMG("Overlord") },
 
-  { title: "Your Lie in April", category: "Drama", rating: 8.6, img: IMG("YLIA") },
-  { title: "Clannad After Story", category: "Drama", rating: 8.9, img: IMG("Clannad AS") },
-  { title: "Anohana", category: "Drama", rating: 8.5, img: IMG("Anohana") },
+  { title: "Your Lie in April", category: "Drama", rating: 8.6, img: "images/ylia.jpg " },
+  { title: "Clannad After Story", category: "Drama", rating: 8.9, img: "images/clannad-as.jpg" },
+  { title: "Anohana", category: "Drama", rating: 8.5, img: "images/anohana.jpg" },
 
-  { title: "Haikyuu!!", category: "Sports", rating: 8.7, img: IMG("Haikyuu") },
+  { title: "Haikyuu!!", category: "Sports", rating: 8.7, img: "images/haikyuu.jpg" },
   { title: "Blue Lock", category: "Sports", rating: 8.3, img: IMG("Blue Lock") },
 
   { title: "Cyberpunk: Edgerunners", category: "Sci-Fi", rating: 8.6, img: IMG("Edgerunners") },
@@ -50,14 +49,14 @@ const animeList = [
   { title: "Fire Force", category: "Action", rating: 7.7, img: IMG("Fire Force") },
 
 
-  { title: "Fruits Basket", category: "Melodrama", rating: 8.6, img: IMG("Fruits Basket") },
-  { title: "Violet Evergarden", category: "Melodrama", rating: 8.7, img: IMG("Violet Evergarden") },
-  { title: "Toradora!", category: "Melodrama", rating: 8.1, img: IMG("Toradora") },
-  { title: "Nana", category: "Melodrama", rating: 8.5, img: IMG("Nana") },
-  { title: "Orange", category: "Melodrama", rating: 7.7, img: IMG("Orange") },
-  { title: "I Want to Eat Your Pancreas", category: "Melodrama", rating: 8.6, img: IMG("Pancreas") },
-  { title: "A Silent Voice", category: "Melodrama", rating: 8.9, img: IMG("Silent Voice") },
-  { title: "Your Name", category: "Melodrama", rating: 8.8, img: IMG("Your Name") },
+  { title: "Fruits Basket", category: "Melodrama", rating: 8.6, img: "images/fruits-basket.jpg" },
+  { title: "Violet Evergarden", category: "Melodrama", rating: 8.7, img: "images/violet-evergarden.jpg" },
+  { title: "Toradora!", category: "Melodrama", rating: 8.1, img: "images/toradora.jpg" },
+  { title: "Nana", category: "Melodrama", rating: 8.5, img: "images/nana.jpg" },
+  { title: "Orange", category: "Melodrama", rating: 7.7, img: "images/orange.jpg" },
+  { title: "I Want to Eat Your Pancreas", category: "Melodrama", rating: 8.6, img: "images/pancreas.jpg" },
+  { title: "A Silent Voice", category: "Melodrama", rating: 8.9, img: "images/silent-voice.jpg" },
+  { title: "Your Name", category: "Melodrama", rating: 8.8, img: "images/your-name.jpg" },
 ];
 
 
